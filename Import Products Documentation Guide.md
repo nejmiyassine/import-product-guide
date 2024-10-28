@@ -170,4 +170,10 @@ REDIS_PASSWORD=“YOUR_REDIS_PASSWORD”</p>
 <li><strong>Error Handling</strong>: Always check the job report for detailed error information after a job completes.</li>
 <li><strong>Concurrency</strong>: Leverage Kafka and Redis to handle multiple imports concurrently without race conditions.</li>
 </ol>
+<p>Bugs:</p>
+<ul>
+<li>Kafka doesn’t logs the latest import-products nor in the console or the pm2 logs.</li>
+<li>I updated the code but I don’t see the changes knowing that I stopped and started the server or restart it using <em><strong>pm2 restart</strong></em></li>
+<li>Images performance when I import products with images the process slows down.</li>
+</ul>
 
